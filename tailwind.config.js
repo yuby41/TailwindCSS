@@ -3,7 +3,9 @@ module.exports = {
         "./public/*.html"
     ],
     theme: {
-        extend: {},
+        extend: {
+            opacity: { '67': '.67', }
+        }
     },
     plugins: [],
 }

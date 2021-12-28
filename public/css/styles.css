@@ -411,6 +411,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-left: auto;
   margin-right: auto;
 }
+.mt-20 {
+  margin-top: 5rem;
+}
+.ml-20 {
+  margin-left: 5rem;
+}
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -431,6 +437,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .w-40 {
   width: 10rem;
+}
+.bg-blue-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
 }
 .bg-gray-500 {
   --tw-bg-opacity: 1;
@@ -502,26 +512,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 .tracking-wide {
   letter-spacing: 0.025em;
 }
-
-@responsive base {
-    .rotate-45{
-        transform:rotate(45deg);
-    }
-}
-
-
-@variants hovered {
-    .zoom{
-        transform:scale(2);
-    }
-}
-
-
 .hover\:zoom:hover{
         transform:scale(2);
     }
-
-
+.disabled\:opacity-\[\.75\]:disabled {
+  opacity: .75;
+}
+.disabled\:opacity-75:disabled {
+  opacity: 0.75;
+}
+.disabled\:opacity-25:disabled {
+  opacity: 0.25;
+}
 @media (min-width: 640px) {
 
   .sm\:rotate-45 {

@@ -1,15 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@tailwind variants;
 
-@responsive base {
+@layer utilities {
     .rotate-45{
         transform:rotate(45deg);
     }
 }
 
 
-@variants hovered {
+@layer utilities {
     .zoom{
         transform:scale(2);
     }
