@@ -383,14 +383,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-left: 1rem;
   margin-right: 1rem;
 }
-.font-sans {
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 .font-mono {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 .font-serif {
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+.font-sans {
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 .text-3xl {
   font-size: 1.875rem;
@@ -419,4 +423,13 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .italic {
   font-style: italic;
+}
+.leading-snug {
+  line-height: 1.375;
+}
+.leading-relaxed {
+  line-height: 1.625;
+}
+.tracking-wide {
+  letter-spacing: 0.025em;
 }
